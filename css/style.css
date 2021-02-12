@@ -47,37 +47,21 @@ a {
   line-height: 1.19;
 }
 
+.header,
 .nav-list,
 .header-list,
-.contact-link.link-item {
+.contact-link {
   display: flex;
   align-items: center;
-  justify-content: start;
-  height: 80px;
-}
-
-.header,
-.link-item {
-  display: flex;
-  align-items: center;
-}
-
-.nav-item {
-  margin-left: 50px;
-}
-
-.header-list {
-  margin: 0;
-  padding: 0;
 }
 
 .contact-link {
-  display: flex;
   margin-left: auto;
+  padding-left: 0;
 }
 
-.link-item:last-child {
-  margin-right: 50px;
+.link-item:first-child {
+  margin-left: 50px;
 }
 
 .nav-item {
@@ -87,8 +71,8 @@ a {
   color: var(--primary-color-text);
 }
 
-.nav-item:hover,
-.nav-item:focus,
+.link-item:hover,
+.link-item:focus,
 .nav-item:hover,
 .nav-item:focus {
   color: var(--accent-color);
