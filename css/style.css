@@ -60,6 +60,10 @@ a {
   padding-left: 0;
 }
 
+.nav-item {
+  margin-left: 50px;
+}
+
 .link-item:first-child {
   margin-left: 50px;
 }
