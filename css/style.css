@@ -197,6 +197,12 @@ a {
 }
 
 /* ABOUT WORK TEAM */
+
+.title-our-team {
+  background-color: var(--background-btn-portfolio);
+  height: 648px;
+}
+
 .our-team ul {
   margin: 0px;
   padding: 0px;
@@ -228,6 +234,26 @@ a {
 }
 
 /* ABOUT OUR TEAM */
+
+.title-our-team ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title-our-team.container,
+.team-list {
+  display: flex;
+  text-align: center;
+}
+
+.title-work-team {
+  margin-top: 188px;
+  margin-bottom: 50px;
+}
+
+.team-list li {
+  margin-right: 30px;
+}
 
 .title-our-team h3 {
   font-weight: 500;
