@@ -196,12 +196,7 @@ a {
   color: var(--secondary-color-text);
 }
 
-/* ABOUT WORK TEAM */
-
-.title-our-team {
-  background-color: var(--background-btn-portfolio);
-  height: 648px;
-}
+/* WORK TEAM */
 
 .our-team ul {
   margin: 0px;
@@ -233,7 +228,7 @@ a {
   margin-bottom: 50px;
 }
 
-/* ABOUT OUR TEAM */
+/*OUR TEAM */
 
 .title-our-team ul {
   margin: 0px;
@@ -260,6 +255,8 @@ a {
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-color-text);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .title-our-team p {
@@ -267,6 +264,8 @@ a {
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-color-text);
+  margin-top: 0;
+  margin-bottom: 94px;
 }
 
 /* FOOTER */
@@ -277,6 +276,8 @@ a {
 
 .box-footer {
   background-color: var(--background-hero);
+  height: 252px;
+  padding-top: 60px;
 }
 
 .footer-address-link {
@@ -301,7 +302,7 @@ a {
 }
 
 /* PORTFOLIO PAGE*/
-
+/* 
 .btn-portfolio {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -331,4 +332,4 @@ a {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color-text);
-}
+} */
