@@ -143,6 +143,17 @@ a {
 
 /* SECTION ABOUT OUR WORK */
 
+.about.container,
+.description-list {
+  display: flex;
+}
+
+.description-list {
+  margin-top: 94px;
+  padding: 0;
+  justify-content: space-between;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
