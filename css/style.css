@@ -151,7 +151,20 @@ a {
 .description-list {
   margin-top: 94px;
   padding: 0;
-  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.description-list li {
+  margin-right: 30px;
+}
+
+.description-list li:last-child {
+  margin-right: 0px;
+}
+
+.about-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .visually-hidden {
