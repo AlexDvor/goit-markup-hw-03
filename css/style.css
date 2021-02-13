@@ -307,7 +307,36 @@ a {
 
 /* PORTFOLIO PAGE*/
 
-/* .btn-portfolio {
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+
+.buttons li:not(:first-child) {
+  margin-left: 8px;
+}
+
+.section-button {
+  margin-bottom: 50px;
+}
+
+.card-set {
+  outline: 2px solid tomato;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.card-set > .card-item {
+  outline: 2px solid teal;
+  flex-basis: calc(100% / 3 - 30px);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.btn-item {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -316,11 +345,14 @@ a {
   border: none;
   background-color: var(--background-btn-portfolio);
   color: var(--primary-color-text);
+  padding: 6px 22px;
+  border-radius: 4px;
+  justify-content: center;
 }
 
-.btn-portfolio:hover,
-.btn-portfolio:focus {
-  background-color: var(--blue-text);
+.btn-item:hover,
+.btn-item:focus {
+  background-color: var(--accent-color);
   color: var(--tertiary-color-text);
 }
 
@@ -336,4 +368,4 @@ a {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color-text);
-} */
+}
