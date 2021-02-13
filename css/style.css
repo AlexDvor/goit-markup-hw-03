@@ -67,10 +67,7 @@ a {
   padding-left: 0;
 }
 
-.nav-item {
-  margin-left: 50px;
-}
-
+.nav-item,
 .link-item {
   margin-left: 50px;
 }
@@ -80,13 +77,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   color: var(--primary-color-text);
-}
-
-.link-item:hover,
-.link-item:focus,
-.nav-item:hover,
-.nav-item:focus {
-  color: var(--accent-color);
+  margin-left: 50px;
 }
 
 .link-item {
@@ -94,6 +85,13 @@ a {
   font-size: 14px;
   line-height: 1.14;
   color: var(--secondary-color-text);
+}
+
+.link-item:hover,
+.link-item:focus,
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--accent-color);
 }
 
 /* HERO */
