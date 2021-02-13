@@ -219,7 +219,7 @@ a {
 /*---------- OUR TEAM----------  */
 .our-team {
   margin-top: 188px;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
 }
 
 .team-list {
@@ -262,23 +262,34 @@ a {
   color: var(--tertiary-color-text);
 }
 
-.box-footer {
+.logo {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.links p {
+  display: inline-block;
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.footer {
   background-color: var(--background-hero);
   height: 252px;
   padding-top: 60px;
+  margin-top: 94px;
 }
 
-.footer-address-link {
+.footer-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
   color: var(--gris-op60);
-}
 
-.footer-address-link:hover,
-.footer-address-link:focus {
-  color: var(--accent-color);
+  display: inline-block;
+  margin-top: 9px;
 }
 
 .address {
@@ -289,9 +300,14 @@ a {
   color: var(--tertiary-color-text);
 }
 
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
 /* PORTFOLIO PAGE*/
 
-.btn-portfolio {
+/* .btn-portfolio {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -320,4 +336,4 @@ a {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color-text);
-}
+} */
