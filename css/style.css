@@ -137,6 +137,7 @@ a {
 /* ---------- ADVANTAGES----------  */
 .advantages {
   margin-top: 94px;
+  margin-bottom: 0px;
 }
 
 .description-list {
@@ -174,82 +175,88 @@ a {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-color-text);
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* WORK TEAM */
+/* ---------- OUR WORK ---------- */
+.our-work {
+  margin-top: 94px;
+  margin-bottom: 0px;
+}
 
-.our-team ul {
+.our-work ul {
   margin: 0px;
   padding: 0px;
 }
 
-.our-team.container,
-.team-img {
+.our-work.container,
+.img-work {
   display: flex;
   justify-content: center;
 }
 
-.team-img li {
+.img-work li {
   margin-right: 30px;
 }
 
-.team-img li:last-child {
+.img-work li:last-child {
   margin-right: 0px;
 }
 
-.title-work-team {
+.title-work {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-color-text);
-  margin-top: 94px;
+  padding: 0px;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 
-/*OUR TEAM */
-
-.title-our-team ul {
-  margin: 0px;
-  padding: 0px;
+/*---------- OUR TEAM----------  */
+.our-team {
+  margin-top: 188px;
+  margin-bottom: 94px;
 }
 
-.title-our-team.container,
 .team-list {
   display: flex;
   text-align: center;
 }
 
-.title-work-team {
-  margin-top: 188px;
+.title-our-team {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 
-.team-list li {
-  margin-right: 30px;
+.team-list li:not(:first-child) {
+  margin-left: 30px;
 }
 
-.title-our-team h3 {
+.our-team h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-color-text);
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
-.title-our-team p {
+.our-team p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-color-text);
-  margin-top: 0;
-  margin-bottom: 94px;
+  margin-top: 10;
+  margin-bottom: 0px;
 }
 
-/* FOOTER */
+/* ----------FOOTER---------- */
 
 .logo-white {
   color: var(--tertiary-color-text);
@@ -283,7 +290,7 @@ a {
 }
 
 /* PORTFOLIO PAGE*/
-/* 
+
 .btn-portfolio {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -313,4 +320,4 @@ a {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color-text);
-} */
+}
