@@ -341,6 +341,10 @@ img {
   margin-bottom: 50px;
 }
 
+.portfolio {
+  padding-bottom: 94px;
+}
+
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -355,7 +359,7 @@ img {
 }
 
 .content-card {
-  padding: 20px 24px;
+  padding: 20px 20px;
 }
 
 .btn-item {
