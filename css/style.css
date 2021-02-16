@@ -62,9 +62,6 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-}
-
-.header {
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -83,7 +80,6 @@ img {
 
 .header-list {
   margin-left: 90px;
-  padding-left: 0;
 }
 
 .contact-link li:last-child {
@@ -95,6 +91,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   color: var(--primary-color-text);
+  padding: 32px 0px;
 }
 
 .link-item {
@@ -102,6 +99,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   color: var(--secondary-color-text);
+  padding-top: 33px;
+  padding-bottom: 31px;
 }
 
 .link-item:hover,
