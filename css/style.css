@@ -153,6 +153,7 @@ img {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .description-list {
@@ -198,7 +199,8 @@ img {
 .our-work {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 94px;
+  padding-top: 0px;
+  padding-bottom: 94px;
 }
 
 .our-work ul {
@@ -234,10 +236,10 @@ img {
 
 /*---------- OUR TEAM----------  */
 .our-team {
-  margin-top: 94px;
+  /* margin-top: 94px; */
   margin-bottom: 0px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 
   background-color: var(--background-btn-portfolio);
 }
