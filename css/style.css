@@ -399,6 +399,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-color-text);
+  margin-bottom: 0px;
 }
 
 .title-apps {
