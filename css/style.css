@@ -48,7 +48,9 @@ img {
 }
 
 /*---------- HEADER---------- */
-
+.header {
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
 .logo-blue {
   color: var(--accent-color);
 }
@@ -334,22 +336,24 @@ img {
 /* PORTFOLIO PAGE*/
 
 .portfolio {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
+  /* padding-top: 94px; */
+  padding-bottom: 50px;
 }
 
 .buttons li:not(:first-child) {
   margin-left: 8px;
 }
 
-.section-button {
+/* .section-button {
   margin-bottom: 50px;
-}
+} */
 
 .card-set {
   display: flex;
