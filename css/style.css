@@ -238,8 +238,7 @@ img {
 .our-team {
   /* margin-top: 94px; */
   margin-bottom: 0px;
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
+  padding-bottom: 94px;
 
   background-color: var(--background-btn-portfolio);
 }
