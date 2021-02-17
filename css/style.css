@@ -288,6 +288,7 @@ img {
 }
 
 /* ----------FOOTER---------- */
+
 .footer {
   background-color: var(--background-hero);
   padding-top: 60px;
@@ -345,8 +346,7 @@ img {
 .buttons {
   display: flex;
   justify-content: center;
-  /* padding-top: 94px; */
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .buttons li:not(:first-child) {
