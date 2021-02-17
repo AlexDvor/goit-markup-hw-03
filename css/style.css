@@ -398,6 +398,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--primary-color-text);
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .title-apps {
@@ -405,4 +406,5 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color-text);
+  margin-bottom: 0px;
 }
