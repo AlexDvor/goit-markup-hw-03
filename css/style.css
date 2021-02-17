@@ -48,9 +48,11 @@ img {
 }
 
 /*---------- HEADER---------- */
+
 .header {
   border-bottom: 1px solid rgb(236, 236, 236);
 }
+
 .logo-blue {
   color: var(--accent-color);
 }
@@ -333,7 +335,7 @@ img {
   color: var(--accent-color);
 }
 
-/* PORTFOLIO PAGE*/
+/* ----------PORTFOLIO PAGE----------*/
 
 .portfolio {
   padding-top: 94px;
@@ -350,10 +352,6 @@ img {
 .buttons li:not(:first-child) {
   margin-left: 8px;
 }
-
-/* .section-button {
-  margin-bottom: 50px;
-} */
 
 .card-set {
   display: flex;
